@@ -90,4 +90,4 @@ This implementation meets the basic requirements specified in the assignment. Th
 - Additional query capabilities
 
 ## Contact
-For any queries or improvements, please contact the developer. 
+For any queries or improvements, please contact @ pawartanmay95@gmail.com. 

@@ -1,3 +1,8 @@
+import sys
+import pysqlite3
+
+# Monkey-patch stdlib sqlite3 to use the bundled, modern SQLite
+sys.modules['sqlite3'] = pysqlite3
 import streamlit as st
 from knowledge_assistant import KnowledgeAssistant
 import os

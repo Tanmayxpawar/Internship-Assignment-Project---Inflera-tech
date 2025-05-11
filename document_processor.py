@@ -1,3 +1,8 @@
+import sys
+import pysqlite3
+
+# Monkey-patch stdlib sqlite3 to use the bundled, modern SQLite
+sys.modules['sqlite3'] = pysqlite3
 import os
 from typing import List, Dict, Any
 from pypdf import PdfReader

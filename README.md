@@ -47,6 +47,20 @@ The application is deployed on Streamlit Cloud:
 4. Add your GROQ API key in the Streamlit Cloud secrets management
 5. Deploy the application
 
+### Deployment Requirements
+- Python 3.9 or higher
+- All dependencies are specified in `requirements.txt`
+- Make sure to use the exact versions specified to avoid compatibility issues
+- The application requires about 1GB of RAM to run smoothly
+
+### Streamlit Cloud Configuration
+1. Set Python version to 3.9
+2. Add the following to your Streamlit Cloud secrets:
+   ```
+   GROQ_API_KEY=your_api_key_here
+   ```
+3. Set the main file as `app.py`
+
 ## Important Note About API Keys
 For security reasons, the `.env` file is not included in the repository. You will need to:
 1. Sign up for a GROQ API key at https://console.groq.com

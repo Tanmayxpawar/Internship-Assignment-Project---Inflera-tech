@@ -1,0 +1,9 @@
+langchain==0.1.0
+langchain-groq==0.0.1
+streamlit==1.29.0
+pypdf==3.17.1
+sentence-transformers==2.2.2
+chromadb==0.4.22
+python-dotenv==1.0.0
+tqdm==4.66.1
+numexpr==2.8.7 

@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ChromaDB database
+chroma_db/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Temporary files
+temp_docs/
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db 

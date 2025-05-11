@@ -3,11 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# ChromaDB database
-chroma_db/
-
-# Environment variables
-.env
 
 # Virtual environment
 venv/
@@ -18,8 +13,7 @@ ENV/
 .vscode/
 .idea/
 
-# Temporary files
-temp_docs/
+# Log files
 *.log
 
 # OS specific files
